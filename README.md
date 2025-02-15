@@ -1,10 +1,10 @@
-<h2>Neural Network from Scratch (Using Python Classes & Objects)</h2>
+<h2>Neural Network from Scratch (Using Python Classes & Objects)</h2><br>
 <h1Overview</h1>
-This project implements a simple feedforward neural network from scratch using OOP concepts in Python. It supports:
-✅ Multiple layers with customizable input/output sizes.
-✅ Activation functions (e.g., Softmax for classification).
-✅ Forward propagation, backpropagation, and weight updates.
-✅ Mini-batch training for efficient learning.
+This project implements a simple feedforward neural network from scratch using OOP concepts in Python.<br> It supports:<br>
+✅ Multiple layers with customizable input/output sizes.<br>
+✅ Activation functions (e.g., Softmax for classification).<br>
+✅ Forward propagation, backpropagation, and weight updates.<br>
+✅ Mini-batch training for efficient learning.<br>
 
 Project Structure
 Model – Stores and manages layers, handles forward and backward passes.
@@ -20,9 +20,6 @@ classifier = Model(
 ) <br>
 2️⃣ Train the Model
 
-python
-Copy
-Edit
 classifier.fit(X_train, y_train, epochs=1000, alpha=0.01, batch_size=32, loss_deriv_func=categorical_cross_entropy_loss_derivative) <br>
 3️⃣ Make Predictions
 
