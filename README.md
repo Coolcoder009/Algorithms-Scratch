@@ -16,8 +16,7 @@ How It Works (Training Flow) <br>
 
 classifier = Model(
     Layer(64, 28),  
-    Layer(28, 10, activation_function=Softmax())  
-) <br>
+    Layer(28, 10, activation_function=Softmax())) <br>
 2️⃣ Train the Model
 
 classifier.fit(X_train, y_train, epochs=1000, alpha=0.01, batch_size=32, loss_deriv_func=categorical_cross_entropy_loss_derivative) <br>
