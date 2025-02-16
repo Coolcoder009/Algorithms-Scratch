@@ -1,6 +1,6 @@
 <h2>Neural Network from Scratch (Using Python Classes & Objects)</h2><br>
-<h1Overview</h1><br>
-This project implements a simple feedforward neural network from scratch using OOP concepts in Python.<br> It supports:<br><br>
+
+This project implements a simple feedforward neural network from scratch using OOP concepts in Python.<br> It supports:<br>
 ✅ Multiple layers with customizable input/output sizes.<br>
 ✅ Activation functions (e.g., Softmax for classification).<br>
 ✅ Forward propagation, backpropagation, and weight updates.<br>
